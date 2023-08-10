@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Main{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(19, 18, 18, 0.8);
+}
+.title{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.column{
+    margin-top: 20px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+.column div {
+    width: 250px;
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-color: transparent;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+lable.{
+    font-size: 25%;
+
+}
